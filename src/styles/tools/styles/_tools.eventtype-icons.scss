@@ -1,0 +1,177 @@
+%eventtype-icons {
+  &:before {
+    content       : '';
+    font-family   : 'cosred-icons';
+    font-size     : $fs-ssl;
+    border-radius : 100%;
+    position      : absolute;
+    top           : 50%;
+    left          : calc(50%);
+    transform     : translate(-50%, -50%);
+    z-index       : 1;
+  }
+  &:after {
+    content          : '';
+    height           : 18px;
+    width            : 18px;
+    display          : inline-block;
+    border-radius    : 100%;
+    position         : absolute;
+    top              : 50%;
+    left             : 50%;
+    transform        : translate(-50%, -50%)
+  }
+}
+
+%eventtype-icons--cancel {
+  &:before {
+    content : $i-cross-cancel-1;
+  }
+}
+%eventtype-icons--done {
+  &:before {
+    content : $i-tick-done;
+  }
+}
+
+%eventtype-icons--alarm {
+  &:before {
+    content : $i-bell-notification-;
+  }
+  // color         : $color-terciary;
+}
+
+%eventtype-icons--connection-lost {
+  &:before {
+    content : $i-cosr-sin-conexion;
+  }
+  //  color         : $color-gray-70;
+}
+
+%eventtype-icons--command {
+  &:before {
+    content : $i-cosr-comando;
+  }
+  // color         : $color-warning;
+}
+
+%eventtype-icons--configuration_secuence {
+  &:before {
+    content : $i-config;
+  }
+  // color         : $color-settings;
+}
+
+%eventtype-icons--login {
+  &:before {
+    content : $i-single-tick-done-valid;
+  }
+  // color         : $color-primary-darker;
+}
+%eventtype-icons--logout {
+  &:before {
+    content : $i-single-delete-cross;
+  }
+  // color         : $color-primary-darker;
+}
+
+
+%eventtype-icons--info {
+  &:before {
+    content : $i-information;
+  }
+  // color         : $color-primary-dark;
+}
+
+%eventtype-icons--status {
+  &:before {
+    content : $i-tick-done2;
+  }
+  // color         : $color-graphic-1;
+}
+%eventtype-icons--data-maintenance {
+  &:before {
+    content : $i-user---pen;
+  }
+  // color         : $color-data-edit;
+}
+
+// pen circle
+%eventtype-icons--pen-circle {
+  &:before {
+    content : $i-cosr-pen-ring;
+    font-size: $fs-xxl;
+  }
+  // color         : $color-data-edit;
+}
+
+%eventtype-icons--connection-circle {
+  &:before {
+    content : $i-cosr-sin-conexion-ring;
+    font-size: $fs-xxl;
+  }
+  // color         : $color-data-edit;
+}
+%eventtype-icons--logout-circle {
+  &:before {
+    content : $i-cosr-single-delete-cross-ring;
+    font-size: $fs-xxl;
+  }
+  // color         : $color-data-edit;
+}
+
+%eventtype-icons--login-circle {
+  &:before {
+    content : $i-cosr-single-tick-done-valid-ring;
+    font-size: $fs-xxl;
+  }
+  // color         : $color-data-edit;
+}
+%eventtype-icons--config-circle {
+  &:before {
+    content : $i-cosr-config-ring;
+    font-size: $fs-xxl;
+  }
+  // color         : $color-data-edit;
+}
+%eventtype-icons--edit-circle {
+  &:before {
+    content : $i-cosr-tick-done2-ring;
+    font-size: $fs-xxl;
+  }
+  // color         : $color-data-edit;
+}
+%eventtype-icons--alarm-circle {
+  &:before {
+    content : $i-alarma-circle;
+    font-size: $fs-xxl;
+  }
+  // color         : $color-data-edit;
+}
+%eventtype-icons--command-circle {
+  &:before {
+    content : $i-cosr-parametro-control;
+    font-size: $fs-xxl;
+  }
+  // color         : $color-data-edit;
+}
+
+%eventtype-icons--status-circle {
+  &:before {
+    content : $i-cosr-tick-done2-ring;
+    font-size: $fs-xxl;
+  }
+  // color         : $color-data-edit;
+}
+
+%eventtype-icons--info-circle {
+  &:before {
+    content : $i-information;
+    font-size: $fs-xxl;
+  }
+  // color         : $color-data-edit;
+}
+
+
+
+

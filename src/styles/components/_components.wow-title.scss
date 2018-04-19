@@ -1,0 +1,19 @@
+.word--trail {
+
+}
+
+.word--trail span {
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+
+.word--trail span span {
+  pointer-events: none;
+}
+
+.word--trail span span:not(:last-child) {
+  position: absolute;
+  color: $color-gray-30;
+  opacity: 0;
+}

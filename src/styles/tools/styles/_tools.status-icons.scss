@@ -1,0 +1,98 @@
+%status-icons {
+  &:before {
+    content       : '';
+    font-family   : 'cosred-icons';
+    font-size     : $fs-xss;
+    color         : $color-white;
+    border-radius : 100%;
+    position      : absolute;
+    top           : 50%;
+    left          : calc(50%);
+    transform     : translate(-50%, -50%);
+    z-index       : 1;
+  }
+  &:after {
+    content          : '';
+    height           : 18px;
+    width            : 18px;
+    display          : inline-block;
+    background-color : $color-error;
+    border-radius    : 100%;
+    position         : absolute;
+    top              : 50%;
+    left             : 50%;
+    transform        : translate(-50%, -50%)
+  }
+}
+
+%status-icons--success {
+  &:before {
+    content : $i-tick-done2;
+  }
+  &:after {
+    background-color : $color-success;
+  }
+}
+
+%status-icons--success-gray {
+  &:before {
+    content : $i-tick-done2;
+  }
+  &:after {
+    background-color : $color-gray-50;
+  }
+}
+
+%status-icons--warning {
+  &:before {
+    content : $i-user---pen;
+  }
+  &:after {
+    background-color : $color-warning;
+  }
+}
+
+%status-icons--error {
+  &:before {
+    content : $i-cross-cancel;
+  }
+  &:after {
+    background-color : $color-gray-50;
+  }
+}
+
+%status-icons--mute {
+  &:before {
+    content : $i-mic-silent-mute;
+  }
+  &:after {
+    background-color : $color-gray-70;
+  }
+}
+
+%status-icons--red-alert {
+  &:before {
+    content : $i-cosr-alert-excl2;
+    color: $color-error-sat;
+    font-size: $fs-ml;
+  }
+  &:after {
+    background-color : rgba(0, 0, 0, 0);
+  }
+}
+
+%status-icons--disabled {
+  &:after {
+    background-color : $color-gray-50;
+  }
+}
+
+%status-icons--rejected {
+  &:before {
+    content : $i-cross-cancel;
+  }
+  &:after {
+    background-color : $color-black;
+  }
+}
+

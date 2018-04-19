@@ -1,0 +1,6 @@
+@mixin border-dotted($color, $position:bottom, $direction: repeat-x,$background-direction: right, $width: 3px, $height: 1px) {
+  background-size: $width $height;
+  background-image: linear-gradient(to $background-direction, $color 33%, rgba(255, 255, 255, 0) 0%);
+  background-position: $position;
+  background-repeat: $direction;
+}

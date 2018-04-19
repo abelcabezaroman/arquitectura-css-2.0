@@ -1,0 +1,9 @@
+@mixin close(){
+  border      : 0;
+  background  : none;
+  font-size   : $fs-xl;
+  position    : absolute;
+  color       : $color-gray-50;
+  font-family : 'Roboto-Light', sans-serif;
+  cursor      : pointer;
+}

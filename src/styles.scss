@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "styles/imports/imports.settings";
+@import "styles/imports/imports.tools";
+@import "styles/imports/imports.generic";
+@import "styles/imports/imports.elements";
+@import "styles/imports/imports.objects";
+@import "styles/imports/imports.components";
+@import "styles/imports/imports.utilites";

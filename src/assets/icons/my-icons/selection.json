@@ -1,0 +1,94 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M18.56 210.56c10.844-11.253 26.046-18.241 42.88-18.241s32.036 6.989 42.862 18.223l0.018 0.018 407.68 467.2 407.68-467.2c10.999-10.92 26.151-17.668 42.88-17.668 33.617 0 60.868 27.252 60.868 60.868 0 16.888-6.878 32.169-17.985 43.196l-0.004 0.004-443.52 506.88c-1.215 3.666-2.732 6.841-4.587 9.782l0.107-0.182c-10.724 11.105-25.744 18-42.375 18-1.078 0-2.149-0.029-3.213-0.086l0.148 0.006c-0.884 0.046-1.919 0.072-2.961 0.072-16.545 0-31.544-6.623-42.489-17.362l0.010 0.009c-1.913-2.943-3.448-6.352-4.423-9.99l-0.057-0.25-443.52-507.52c-11.253-10.844-18.241-26.046-18.241-42.88s6.989-32.036 18.223-42.862l0.018-0.018z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "colorPermutations": {
+          "12552552551": [
+            {}
+          ]
+        },
+        "tags": [
+          "form-arrowDown"
+        ],
+        "grid": 0
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 3642,
+        "id": 30,
+        "name": "form-arrowDown",
+        "prevSize": 32,
+        "code": 60007
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 30
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "my-icons"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "i-",
+      "metadata": {
+        "fontFamily": "my-icons",
+        "majorVersion": 1,
+        "minorVersion": 0
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false,
+      "ie7": false,
+      "noie8": true,
+      "includeMetadata": false,
+      "cssVars": true,
+      "cssVarsFormat": "scss",
+      "showSelector": true,
+      "showMetrics": true,
+      "showMetadata": false,
+      "showVersion": true,
+      "autoHost": true,
+      "selector": "",
+      "classSelector": ".icon"
+    },
+    "imagePref": {
+      "prefix": "i-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".i-",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16,
+    "quickUsageToken": {
+      "Boilerplate": "OTFiMDcwZjVkNzVlOWRiMThiNjUxM2Q3MTUxYzQ1MTUjMSMxNTIwNTAxOTQ5IyMj"
+    },
+    "showGrid": true,
+    "showLiga": false
+  }
+}

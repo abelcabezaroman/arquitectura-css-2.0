@@ -21,7 +21,12 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
+    "animejs": "^2.2.0",
+    "bootstrap": "^4.0.0",
+    "charming": "^2.2.2",
+    "classlist.js": "^1.1.20150312",
     "core-js": "^2.4.1",
+    "inuitcss": "^6.0.0",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
@@ -44,5 +49,7 @@
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "~2.5.3"
-  }
+  },
+  "main": "index.js",
+  "author": "acabezar <contacto@abelcabezaroman.com>"
 }
