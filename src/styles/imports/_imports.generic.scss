@@ -6,3 +6,8 @@
 @import "../generic/icomoon/style";
 // Bootstrap
 @import '../../../node_modules/bootstrap/scss/grid';
+// CSSGRAM
+@import '../../../node_modules/cssgram/source/scss/cssgram';
+// Primeng
+@import '~primeng/resources/themes/omega/theme.css';
+@import '~primeng/resources/primeng.css';

@@ -33,3 +33,139 @@
     <app-button [buttonState]="'warning'">Warning</app-button>
   </div>
 </section>
+
+
+<section class="c-section">
+  <h3 class="c-section__title">Galería</h3>
+  <div class="c-section__content">
+    <div class="c-gallery">
+      <figure class="c-gallery__item">
+        <img src="assets/img/forest.jpg" alt="imagen" class="c-gallery__img">
+        <figcaption class="c-gallery__caption">Normal</figcaption>
+      </figure>
+      <figure class="c-gallery__item">
+        <img src="assets/img/forest.jpg" alt="imagen" class="c-gallery__img _1977">
+        <figcaption class="c-gallery__caption">1977</figcaption>
+      </figure>
+      <figure class="c-gallery__item">
+        <img src="assets/img/forest.jpg" alt="imagen" class="c-gallery__img aden">
+        <figcaption class="c-gallery__caption">Aden</figcaption>
+      </figure>
+      <figure class="c-gallery__item">
+        <img src="assets/img/forest.jpg" alt="imagen" class="c-gallery__img lofi">
+        <figcaption class="c-gallery__caption">Lofi</figcaption>
+      </figure>
+      <figure class="c-gallery__item">
+        <img src="assets/img/forest.jpg" alt="imagen" class="c-gallery__img inkwell">
+        <figcaption class="c-gallery__caption">Inkwell</figcaption>
+      </figure>
+      <figure class="c-gallery__item">
+        <img src="assets/img/forest.jpg" alt="imagen" class="c-gallery__img walden">
+        <figcaption class="c-gallery__caption">Walden</figcaption>
+      </figure>
+      <figure class="c-gallery__item">
+        <img src="assets/img/forest.jpg" alt="imagen" class="c-gallery__img toaster">
+        <figcaption class="c-gallery__caption">Toaster</figcaption>
+      </figure>
+      <figure class="c-gallery__item">
+        <img src="assets/img/forest.jpg" alt="imagen" class="c-gallery__img reyes">
+        <figcaption class="c-gallery__caption">Reyes</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+
+<section class="c-section">
+  <h3 class="c-section__title">Cartas</h3>
+  <div class="c-section__content">
+    <div class="row">
+      <div class="col">
+        <p-card class="c-card" title="Advanced Card" subtitle="Subtitle">
+          <p-header>
+            <img src="Card" src="assets/img/forest.jpg">
+          </p-header>
+          <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae
+            numquam deserunt
+            quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
+            quas!
+          </div>
+        </p-card>
+      </div>
+      <div class="col">
+        <p-card class="c-card" title="Advanced Card" subtitle="Subtitle">
+          <p-header>
+            <img src="Card" src="assets/img/forest.jpg">
+          </p-header>
+          <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae
+            numquam deserunt
+            quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
+            quas!
+          </div>
+        </p-card>
+      </div>
+      <div class="col">
+        <p-card class="c-card" title="Advanced Card" subtitle="Subtitle">
+          <p-header>
+            <img src="Card" src="assets/img/forest.jpg">
+          </p-header>
+          <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae
+            numquam deserunt
+            quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
+            quas!
+          </div>
+        </p-card>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="c-section">
+  <h3 class="c-section__title">Progress Bar</h3>
+  <div class="c-section__content">
+    <div class="o-content">
+      <p-progressBar class="c-progress-bar" [value]="50"></p-progressBar>
+    </div>
+
+    <div class="o-content">
+      <p-progressBar class="c-progress-bar c-progress-bar--inverted" [value]="80"></p-progressBar>
+    </div>
+
+    <div class="o-content">
+      <p-progressBar class="c-progress-bar c-progress-bar--big" mode="indeterminate"></p-progressBar>
+    </div>
+
+
+  </div>
+</section>
+
+
+<section class="c-section">
+  <h3 class="c-section__title">Carrusel</h3>
+  <div class="c-section__content">
+    <p-carousel class="c-carrousel" headerText="Cars" [value]="cars">
+      <ng-template let-car pTemplate="item">
+        <div class="ui-grid ui-grid-responsive">
+          <div class="ui-grid-row">
+            <div class="ui-grid-col-6">Vin</div>
+            <div class="ui-grid-col-6">{{car.vin}}</div>
+          </div>
+          <div class="ui-grid-row">
+            <div class="ui-grid-col-6">Year</div>
+            <div class="ui-grid-col-6">{{car.year}}</div>
+          </div>
+          <div class="ui-grid-row">
+            <div class="ui-grid-col-6">Color</div>
+            <div class="ui-grid-col-6">{{car.color}}</div>
+          </div>
+
+        </div>
+      </ng-template>
+    </p-carousel>
+  </div>
+</section>
+
+
+
