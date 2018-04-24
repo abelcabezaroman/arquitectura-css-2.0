@@ -1,0 +1,7 @@
+.c-subtitle {
+  font-size: $fs-45;
+  font-family: 'Monoton-Regular';
+  border-bottom: 3px solid transparentize($color-primary, 0.5);
+  padding: 0 $inuit-global-spacing-unit;
+  color: $color-primary;
+}

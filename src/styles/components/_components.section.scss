@@ -1,14 +1,5 @@
 .c-section {
   padding-bottom: $inuit-global-spacing-unit-huge;
-  border-left: 12px solid;
-  &__title {
-    font-size: $fs-60;
-    font-family: 'Monoton-Regular';
-    text-transform: uppercase;
-    border-bottom: 3px solid;
-    padding: 0 $inuit-global-spacing-unit;
-    box-shadow: -4px 4px 3px 1px;
-  }
   &__content {
     display: block;
     padding: $inuit-global-spacing-unit;
