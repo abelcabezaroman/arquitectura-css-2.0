@@ -12,7 +12,7 @@ export class WelcomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    Array.from(document.querySelectorAll('.word')).forEach((word) => new Word(word));
+    Array.from(document.querySelectorAll('[data-function="c-word"]')).forEach((word) => new Word(word));
   }
 
 }

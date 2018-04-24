@@ -12,8 +12,6 @@ export class Letter {
 
 
   constructor(letter, pos) {
-    console.log('##ABEL## le >> constructor >> ', letter);
-    console.log('##ABEL## le >> constructor >> ', pos);
     this.DOM = {};
     this.DOM.letter = letter;
     this.CONFIG = {
@@ -32,6 +30,7 @@ export class Letter {
     this.DOM.letter.innerHTML = '';
     for (let i = 0; i < this.CONFIG.totalInner; ++i) {
       const letterInner = document.createElement('span');
+      letterInner.classList.add('c-word__letter');
       letterInner.innerHTML = letterStr;
       this.DOM.letterInners.push(letterInner);
       this.DOM.letter.appendChild(letterInner);
@@ -124,7 +123,7 @@ export class Word {
   }
 
   layout() {
-    charming(this.DOM.word, {classPrefix: 'letter'});
+    charming(this.DOM.word, {classPrefix: 'c-word__letter-wrap c-word__letter-wrap--'});
     Array.from(this.DOM.word.querySelectorAll('span')).forEach((letter, pos) => new Letter(letter, pos));
   }
 }
