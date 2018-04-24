@@ -1,10 +1,9 @@
 import {Component, OnInit} from '@angular/core';
-import {Word} from '../../shared/classes/letter';
+import {WordClass} from '../../shared/classes/word.class';
 
 @Component({
   selector: 'app-welcome',
-  templateUrl: './welcome.component.html',
-  styleUrls: ['./welcome.component.scss']
+  templateUrl: './welcome.component.html'
 })
 export class WelcomeComponent implements OnInit {
 
@@ -12,7 +11,7 @@ export class WelcomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    Array.from(document.querySelectorAll('[data-function="c-word"]')).forEach((word) => new Word(word));
+    Array.from(document.querySelectorAll('[data-function="c-word"]')).forEach((word) => new WordClass(word));
   }
 
 }

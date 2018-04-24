@@ -1,29 +1,29 @@
-$c-gallery--spacing : 25px;
+$c-gallery--spacing: 25px;
 
 .c-gallery {
-  width     : 100%;
-  display   : flex;
-  flex-wrap : wrap;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
   &__item {
-    position  : relative;
-    border    : 5px solid $color-secondary;
-    flex-grow : 1;
-    width     : calc(50% - #{$c-gallery--spacing * 2});
-    margin    : $c-gallery--spacing;
-    padding   : $c-gallery--spacing;
+    position: relative;
+    border: 5px solid $color-secondary;
+    flex-grow: 1;
+    width: calc(50% - #{$c-gallery--spacing * 2});
+    margin: $c-gallery--spacing;
+    padding: $c-gallery--spacing;
   }
   &__img {
-    transition : filter .25s ease-in-out;
+    transition: filter .25s ease-in-out;
     &:hover {
-      filter : none
+      filter: none
     }
   }
   &__caption {
-    position         : absolute;
-    bottom           : $c-gallery--spacing;
-    left             : 0;
-    background-color : $color-secondary;
-    color            : $color-white;
-    padding          : $c-gallery--spacing / 2;
+    position: absolute;
+    bottom: $c-gallery--spacing;
+    left: 0;
+    background-color: $color-secondary;
+    color: $color-white;
+    padding: $c-gallery--spacing / 2;
   }
 }

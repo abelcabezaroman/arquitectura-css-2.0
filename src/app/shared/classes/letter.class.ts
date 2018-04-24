@@ -1,7 +1,6 @@
 import * as anime from 'animejs';
-import * as charming from 'charming';
 
-export class Letter {
+export class LetterClass {
   DOM;
   CONFIG;
   pos;
@@ -113,19 +112,6 @@ export class Letter {
   }
 }
 
-export class Word {
-  DOM;
 
-  constructor(word) {
-    this.DOM = {};
-    this.DOM.word = word;
-    this.layout();
-  }
-
-  layout() {
-    charming(this.DOM.word, {classPrefix: 'c-word__letter-wrap c-word__letter-wrap--'});
-    Array.from(this.DOM.word.querySelectorAll('span')).forEach((letter, pos) => new Letter(letter, pos));
-  }
-}
 
 

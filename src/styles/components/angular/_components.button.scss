@@ -2,8 +2,12 @@
   padding: 10px;
   color: $color-white;
   background-color: $color-gray-30;
-  border: 0;
   cursor: pointer;
+  border: 3px solid transparent;
+  transition: border .25s ease-in-out;
+  &:hover {
+    border: 3px solid $color-secondary;
+  }
   &--flush {
     padding: 0;
   }
