@@ -1,4 +1,5 @@
 import {LetterClass} from './letter.class';
+import * as charming from 'charming';
 
 export class WordClass {
   DOM;
