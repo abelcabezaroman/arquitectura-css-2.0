@@ -5,6 +5,7 @@
   cursor: pointer;
   border: 3px solid transparent;
   transition: border .25s ease-in-out;
+  border-radius: 3px;
   &:hover {
     border: 3px solid $color-secondary;
   }

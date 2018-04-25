@@ -48,32 +48,27 @@
         <figcaption class="c-gallery__caption">Normal</figcaption>
       </figure>
       <figure class="c-gallery__item">
-        <img src="assets/img/forest.jpg" alt="imagen" class="c-gallery__img _1977">
-        <figcaption class="c-gallery__caption">1977</figcaption>
-      </figure>
-      <figure class="c-gallery__item">
-        <img src="assets/img/forest.jpg" alt="imagen" class="c-gallery__img aden">
-        <figcaption class="c-gallery__caption">Aden</figcaption>
-      </figure>
-      <figure class="c-gallery__item">
         <img src="assets/img/forest.jpg" alt="imagen" class="c-gallery__img lofi">
-        <figcaption class="c-gallery__caption">Lofi</figcaption>
+        <figcaption class="c-gallery__caption c-gallery__caption--full">Lofi</figcaption>
       </figure>
       <figure class="c-gallery__item">
         <img src="assets/img/forest.jpg" alt="imagen" class="c-gallery__img inkwell">
-        <figcaption class="c-gallery__caption">Inkwell</figcaption>
+        <figcaption class="c-gallery__caption c-gallery__caption--right">Inkwell</figcaption>
       </figure>
       <figure class="c-gallery__item">
         <img src="assets/img/forest.jpg" alt="imagen" class="c-gallery__img walden">
-        <figcaption class="c-gallery__caption">Walden</figcaption>
+        <figcaption class="c-gallery__caption c-gallery__caption--full c-gallery__caption--semi">Walden</figcaption>
       </figure>
       <figure class="c-gallery__item">
         <img src="assets/img/forest.jpg" alt="imagen" class="c-gallery__img toaster">
-        <figcaption class="c-gallery__caption">Toaster</figcaption>
+        <figcaption
+          class="c-gallery__caption c-gallery__caption--full c-gallery__caption--semi c-gallery__caption--no-border">
+          Toaster
+        </figcaption>
       </figure>
       <figure class="c-gallery__item">
         <img src="assets/img/forest.jpg" alt="imagen" class="c-gallery__img reyes">
-        <figcaption class="c-gallery__caption">Reyes</figcaption>
+        <figcaption class="c-gallery__caption c-gallery__caption--full c-gallery__caption--center">Reyes</figcaption>
       </figure>
     </div>
   </div>
@@ -149,27 +144,53 @@
 <section class="c-section">
   <h3 class="c-subtitle">Carrusel</h3>
   <div class="c-section__content">
-    <p-carousel class="c-carrousel" headerText="Cars" [value]="cars">
-      <ng-template let-car pTemplate="item">
-        <div class="ui-grid ui-grid-responsive">
-          <div class="ui-grid-row">
-            <div class="ui-grid-col-6">Vin</div>
-            <div class="ui-grid-col-6">{{car.vin}}</div>
-          </div>
-          <div class="ui-grid-row">
-            <div class="ui-grid-col-6">Year</div>
-            <div class="ui-grid-col-6">{{car.year}}</div>
-          </div>
-          <div class="ui-grid-row">
-            <div class="ui-grid-col-6">Color</div>
-            <div class="ui-grid-col-6">{{car.color}}</div>
-          </div>
+    <div class="o-content">
+      <p-carousel class="c-carrousel" headerText="Cars" [value]="cars">
+        <ng-template let-car pTemplate="item">
+          <div class="ui-grid ui-grid-responsive">
+            <div class="ui-grid-row">
+              <div class="ui-grid-col-6">Vin</div>
+              <div class="ui-grid-col-6">{{car.vin}}</div>
+            </div>
+            <div class="ui-grid-row">
+              <div class="ui-grid-col-6">Year</div>
+              <div class="ui-grid-col-6">{{car.year}}</div>
+            </div>
+            <div class="ui-grid-row">
+              <div class="ui-grid-col-6">Color</div>
+              <div class="ui-grid-col-6">
+                <button class="c-btn" [ngStyle]="{'background-color':car.color}">{{car.color}}</button>
+              </div>
+            </div>
 
-        </div>
-      </ng-template>
-    </p-carousel>
+          </div>
+        </ng-template>
+      </p-carousel>
+    </div>
+
+    <div class="o-content">
+      <p-carousel class="c-carrousel c-carrousel--sec" headerText="Cars" [value]="cars">
+        <ng-template let-car pTemplate="item">
+          <div class="ui-grid ui-grid-responsive">
+            <div class="ui-grid-row">
+              <div class="ui-grid-col-6">Vin</div>
+              <div class="ui-grid-col-6">{{car.vin}}</div>
+            </div>
+            <div class="ui-grid-row">
+              <div class="ui-grid-col-6">Year</div>
+              <div class="ui-grid-col-6">{{car.year}}</div>
+            </div>
+            <div class="ui-grid-row">
+              <div class="ui-grid-col-6">Color</div>
+              <div class="ui-grid-col-6">
+                <button class="c-btn" [ngStyle]="{'background-color':car.color}">{{car.color}}</button>
+              </div>
+            </div>
+
+          </div>
+        </ng-template>
+      </p-carousel>
+    </div>
   </div>
 </section>
-
-
 
